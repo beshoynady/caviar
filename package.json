@@ -6,14 +6,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/beshoynady/caviar.git"
-  },
   "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/beshoynady/caviar/issues"
-  },
-  "homepage": "https://github.com/beshoynady/caviar#readme"
+  "license": "ISC"
 }
