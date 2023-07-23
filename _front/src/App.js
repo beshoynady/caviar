@@ -5,7 +5,7 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom'
 
 import './App.css';
 import Userscreen from './screens/user.screen/Userscreen';
-import products from '../src/menu.json'
+import products from './menu.json'
 import ManagLayout from './screens/management/ManagLayout';
 import Home from './screens/user.screen/component/home/Home';
 import Offers from './screens/user.screen/component/offers/Offers';
