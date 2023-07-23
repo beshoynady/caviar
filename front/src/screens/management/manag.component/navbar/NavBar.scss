@@ -1,0 +1,36 @@
+.manag-header{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .manag-logo{
+            width: 100px;
+            height: auto;
+            background-color: gold;
+        }
+        .nav-manag{
+            width: 40%;
+            height: auto;
+            background-color: green;
+            .nav-list{
+                width: 100%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                list-style: none;
+                background-color: hotpink;
+                >li{
+                    font-size: 30px;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+
+}

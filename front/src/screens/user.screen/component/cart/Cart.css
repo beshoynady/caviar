@@ -1,0 +1,92 @@
+.cart {
+  width: 350px;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: gold;
+  position: absolute;
+  top: 100px;
+  right: 20px;
+  z-index: 2000;
+  overflow-y: scroll;
+}
+.cart .cart-item {
+  width: 90%;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 15px;
+  background-color: white;
+}
+.cart .cart-item .cart-img {
+  width: 30%;
+  height: 100%;
+}
+.cart .cart-item .cart-img img {
+  width: 100%;
+  height: 100%;
+}
+.cart .cart-item .cart-detalis {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cart .cart-item .cart-detalis .item-detalis {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.cart .cart-item .cart-detalis .item-detalis p {
+  font-size: 20px;
+  font-weight: 700;
+}
+.cart .cart-item .cart-detalis .item-cost {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.cart .cart-item .cart-detalis .item-cost p {
+  font-size: 20px;
+  font-weight: 900;
+}
+.cart .final {
+  width: 100%;
+  height: 80px;
+  position: sticky;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: greenyellow;
+  padding: 15px;
+}
+.cart .final button {
+  width: 100px;
+  height: 40px;
+  margin: auto 20px;
+  font-size: 20px;
+}
+.cart .final .total {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.cart .final .total p {
+  font-size: 20px;
+  font-weight: 700;
+}/*# sourceMappingURL=Cart.css.map */

@@ -1,0 +1,33 @@
+.sidebar {
+  width: 200px;
+  height: calc(100vh - 60px);
+  background-color: greenyellow;
+}
+.sidebar .menu {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.sidebar .menu .item {
+  width: 90%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: gold;
+  margin: 0 0 20px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.sidebar .menu .item .icon-manag {
+  width: 40px;
+  height: 40px;
+}
+.sidebar .menu .item p {
+  font-size: 25px;
+  font-weight: 700;
+  text-transform: capitalize;
+}/*# sourceMappingURL=SideBar.css.map */
